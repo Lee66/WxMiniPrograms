@@ -1,0 +1,57 @@
+/**app.wxss**/
+
+@import './assets/iconfont/iconfont.wxss';
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lm-flex {
+  display: flex;
+}
+
+/* 右对齐 前提条件是加lm-flex类名 */
+
+.lm-justify-end {
+  justify-content: flex-end;
+}
+
+/* 左对齐 前提条件是加lm-flex类名 */
+
+.lm-justify-start {
+  justify-content: flex-start;
+}
+
+/* 间隔相等 前提条件是加lm-flex类名 */
+
+.lm-justify-around {
+  justify-content: space-around;
+}
+
+/* 两端对齐 前提条件是加lm-flex类名 */
+
+.lm-justify-between {
+  justify-content: space-between;
+}
+
+/* 水平居中 前提条件是加lm-flex类名 */
+
+.lm-justify-center {
+  justify-content: center;
+}
+
+/* 垂直居中 前提条件是加lm-flex类名 */
+
+.lm-vertical-center {
+  align-items: center;
+}
+
+/* 水平垂直居中 */
+
+.lm-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

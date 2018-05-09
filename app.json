@@ -1,0 +1,15 @@
+{
+  "pages": [
+		"pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "微信小程序基础框架",
+    "navigationBarTextStyle": "write"
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "downloadFile": 30000
+  }
+}
