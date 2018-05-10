@@ -21,7 +21,10 @@
  |---app.js #小程序逻辑
  |---app.json #小程序公共设置
  |---app.wxss #小程序公共样式表
+ |---weui.wxss #微信官方小程序样式库
  |---project.config.json #项目相关配置
+ |---.gitignore #git忽略文件
+ 
 
 
    
